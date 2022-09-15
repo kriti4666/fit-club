@@ -1,0 +1,107 @@
+.plans-conatiner{
+    margin-top: -4rem;
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    position: relative;
+   
+}
+
+.plans-blur-1{
+    width: 23rem;
+    height: 32rem;
+    top: 6rem;
+    left: 0;
+}
+
+.plans-blur-2{
+    width: 23rem;
+    height: 32rem;
+    top: 10rem;
+    right: 0;
+}
+
+.my-plans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+   
+}
+
+.plans{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--caloryCard);
+    color: white;
+    gap: 2rem;
+    padding: 1.5rem;
+    width: 15rem;
+    
+}
+
+.my-plans>:nth-child(2){
+    background-color: var(--orange);
+    transform: scale(1.1);
+}
+
+.plans>svg{
+    fill: var(--orange);
+    width: 2rem;
+    height: 2rem;
+}
+
+.plans> :nth-child(2){
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.plans> :nth-child(3){
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.plans> :nth-child(5){
+    font-size: 0.8rem;
+    
+    
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.feature{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.feature> img{
+    width: 1rem;
+    
+}
+
+.my-plans>:nth-child(2)>svg{
+    fill: white;
+    
+}
+
+.my-plans>:nth-child(2)>button{
+    color: orange;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .my-plans {
+        flex-direction: column;
+    }
+
+    .my-plans > :nth-child(2) {
+        transform: none;
+    }
+}
